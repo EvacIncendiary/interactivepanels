@@ -1,0 +1,213 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+}
+
+html, body{
+    height: 100%;
+    font-family: sans-serif;
+}
+.under{
+    position: relative;
+    width: 100%;
+}
+
+.navbask{
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+.clock{
+    background: url('images/Proto1.jpg')no-repeat top center;
+    width: 100%;   
+    height: 810px;
+    overflow: hidden;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flip-clock-dot{
+    background: #cccccc;
+}
+
+.flip-clock-meridium a{
+    color:#cccccc;
+}
+
+/*responsive image one with clock*/
+
+@media screen and (max-width:789px){
+    
+    .clock{
+        background: url('images/Proto1_789.jpg')no-repeat top center;
+        width: 100%;   
+        height: 810px;
+        overflow: hidden;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+    }
+}    
+
+@media screen and (max-width:622px){
+    
+    .clock{
+        background: url('images/Proto1_622.jpg')no-repeat top center;
+        width: 100%;   
+        height: 810px;
+        overflow: hidden;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+
+    }
+}
+
+@media screen and (max-width:557px){
+
+    .clock{
+        background: url('images/Proto1_557.jpg')no-repeat top center;
+        width: 100%;   
+        height: 810px;
+        overflow: hidden;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    
+    .flip-clock-wrapper ul{
+        height: 90px;
+        line-height: 77px; 
+        width: 50px;
+    }
+    .flip-clock-wrapper ul li a div div.inn{
+        font-size: 40px;
+    }
+
+   
+
+}
+@media screen and (max-width:482px){
+
+    .clock{
+        background: url('images/Proto1_482.jpg')no-repeat top center;
+        width: 100%;   
+        height: 810px;
+        overflow: hidden;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+
+    }
+    
+    .flip-clock-wrapper ul{
+        height: 80px;
+        line-height: 67px; 
+        width: 45px;
+    }
+    .flip-clock-wrapper ul li a div div.inn{
+        font-size: 40px;
+       
+    }
+
+   
+
+}
+
+
+@media screen and (max-width:446px){
+
+    .clock{
+        background: url('images/Proto1_446.jpg')no-repeat top center;
+        width: 100%;   
+        height: 810px;
+        overflow: hidden;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+
+    }
+
+
+    .flip-clock-wrapper ul li a{
+       font-size: 15px;
+    }   
+
+    
+    .flip-clock-wrapper ul{
+        height: 80px;
+        line-height: 67px; 
+        width: 30px;
+    }
+
+    .flip-clock-wrapper ul li a div div.inn{
+        font-size: 40px;
+       
+    }
+
+   
+}
+
+@media screen and (max-width:360px){
+
+    .clock{
+        background: url('images/Proto1_360.jpg')no-repeat top center;
+        width: 100%;   
+        height: 810px;
+        overflow: hidden;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+
+    }
+}
+
+
+@media screen and (max-width:341px){
+
+    
+
+    .flip-clock-wrapper ul li a{
+       font-size: 15px;
+    }   
+
+    
+    .flip-clock-wrapper ul{
+        height: 77px;
+        line-height: 67px; 
+        width: 26px;
+    }
+
+    .flip-clock-wrapper ul li a div div.inn{
+        font-size: 40px;
+       
+    }
+
+   
+
+}
+
+
+@media screen and (max-width:320px){
+
+    .clock{
+        background: url('images/Proto1_320.jpg')no-repeat top center;
+        width: 100%;   
+        height: 810px;
+        overflow: hidden;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+
+    }
+}

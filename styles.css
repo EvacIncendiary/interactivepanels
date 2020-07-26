@@ -1,0 +1,593 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+
+}
+
+html, body{
+    background-color: #0f0f0f;
+    height: 100%;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+/*Navbar*/
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0f0f0f;
+    min-height: 4vh;
+    font-family: 'Roboto', sans-serif;
+    top: 0px;
+    position: sticky;
+    width: 100%;
+    
+   
+}
+
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+    
+
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.nav-links a{
+    color: rgb(226, 226, 226);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+    
+}
+
+.nav-links li a{
+    transition: all 0.6s ease 0s;
+}
+
+.nav-links li a:hover{
+    color: #c6ff29ee;
+}
+
+
+.burger{
+    display: none;
+    cursor: pointer;
+}
+
+.burger div{
+    width: 25px;
+    height:3px;
+    background-color: rgb(226, 226, 226);
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+.pocket{
+    position: relative;
+}
+
+/*Main Content*/
+
+.main{
+    background: url('images/new.jpg')no-repeat top center;
+    width: 100%;   
+    height: 736px;
+    overflow: hidden;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.max{
+    background: url('images/new1.jpg')no-repeat top center;
+    width: 100%;   
+    height: 736px;
+    overflow: hidden;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.view{
+    background: url('images/new2.jpg')no-repeat top center;
+    width: 100%;   
+    height: 736px;
+    overflow: hidden;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+/*Text for Main Content*/
+
+.container{
+    text-align: center;
+    color: white;
+    margin-top: 15px;
+}
+
+
+.container h1 span{
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.des{
+    margin: 10px;
+    font-size: 26px ;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+}
+
+.link{
+    font-size: 20px;
+    color: #c6ff29ee;
+    
+    
+}
+
+.container2{
+    text-align: center;
+    color: black;
+    margin-top: 15px;
+}
+
+.container2 h1 span{
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.words{
+    margin-top: 5px;
+    padding: 2em 0px;
+    color: #ffffff;
+    background: #0f0f0f;
+}
+
+.dont{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.lie{
+    margin: 0px 0px 0.5rem;
+    padding: 0px, 16px;
+    font-size: 20px ;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Text for Grid*/
+
+.flask{
+    text-align: center;
+    color: white;
+    margin-top: 15px;
+}
+
+
+.flask h1 span{
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.pes{
+    margin: 10px;
+    font-size: 21px ;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+}
+
+.link2{
+    font-size: 18px;
+    color: #2997ff;
+    
+    
+}
+
+.flask2{
+    text-align: center;
+    color: black;
+    margin-top: 15px;
+}
+
+.flask2 h1 span{
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Working for Grid*/
+
+.basket{
+    display: grid;
+    height: 1800px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0.5em;
+    margin-top: 5px;
+}
+
+.one{
+    background: url('images/multi.jpg') no-repeat top center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+
+}
+
+.two{
+    background: url('images/dev.jpg') no-repeat top center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.three{
+    background: url('images/connect.jpg') no-repeat top center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.four{
+    background: url('images/inter.jpg') no-repeat top center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.five{
+    background: url('images/touch.jpg') no-repeat top center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.six{
+    background: url('images/education.jpg') no-repeat top center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+/*Footer*/
+
+footer{
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a{
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/* WORKING FOR DEVICES */
+
+
+@media screen and (max-width:1032px){
+
+    .main{
+        background: url('images/new_1032.jpg')no-repeat top center;
+        width: 100%;   
+        height: 736px;
+        overflow: hidden;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+       
+    }
+    
+
+}
+
+@media screen and (max-width:1024px){
+    
+    .nav-links{
+        width: 60%;
+    }
+    
+    .pes{
+        margin: 10px;
+        font-size: 23px ;
+        display: block;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+
+}
+
+@media screen and (max-width:782px){
+
+    
+    .max{
+        background: url('images/new1_782.jpg')no-repeat top center;
+        width: 100%;   
+        height: 736px;
+        overflow: hidden;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+    }
+
+    .view{
+        background: url('images/new2_782.jpg')no-repeat top center;
+        width: 100%;   
+        height: 736px;
+        overflow: hidden;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container h1 span{
+        font-size: 50px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .container2 h1 span{
+        font-size: 50px;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    
+    .des{
+        margin: 10px;
+        font-size: 20px ;
+        display: block;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+
+}
+
+@media screen and (max-width:768px){
+    body{
+        overflow-x: hidden;
+    }
+    
+   
+
+    .basket{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        height: 3500px;
+    }
+
+    .nav-links{
+        position: absolute;
+        right: 0px;
+        height: 108vh;
+        top: 0;
+        background-color: #0f0f0f;
+        opacity: 100;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+        
+    }
+
+    .nav-links li{
+        opacity: 0;
+    }
+    
+    .burger{
+        display: block;
+        
+    }
+
+    .nav-active{
+        transform: translate(0%);
+    }   
+    
+    
+}
+
+@media screen and (max-width:600px){
+
+    .main{
+        background: url('images/new_600.jpg')no-repeat top center;
+        width: 100%;   
+        height: 736px;
+        overflow: hidden;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+       
+    }
+    
+    
+}
+
+@media screen and (max-width:532px){
+
+    .max{
+        background: url('images/new1_532.jpg')no-repeat top center;
+        width: 100%;   
+        height: 736px;
+        overflow: hidden;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+    }
+    .view{
+        background: url('images/new2_532.jpg')no-repeat top center;
+        width: 100%;   
+        height: 736px;
+        overflow: hidden;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width:470px){
+
+    .one{
+        background: url('images/multi_470.jpg') no-repeat top center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+    
+    }
+
+    .two{
+        background: url('images/dev_470.jpg') no-repeat top center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+    }
+
+    .three{
+        background: url('images/connect_470.jpg') no-repeat top center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .five{
+        background: url('images/touch_470.jpg') no-repeat top center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+    }
+
+    .six{
+        background: url('images/education_470.jpg') no-repeat top center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width:375px){
+
+    
+    .flask h1 span{
+        font-size: 35px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .flask2 h1 span{
+        font-size: 35px;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .pes{
+        margin: 12px;
+        font-size: 21px ;
+        display: block;
+        font-family: 'Roboto', sans-serif;
+    }
+        
+}
+
+@media screen and (max-width:345px){
+
+    .max{
+        background: url('images/new1_345.jpg')no-repeat top center;
+        width: 100%;   
+        height: 736px;
+        overflow: hidden;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+    }
+  
+    .view{
+        background: url('images/new2_345.jpg')no-repeat top center;
+        width: 100%;   
+        height: 736px;
+        overflow: hidden;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+    }
+
+    .one{
+        background: url('images/multi_345.jpg') no-repeat top center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+    
+    }
+
+    .two{
+        background: url('images/dev_345.jpg') no-repeat top center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+    }
+
+    .three{
+        background: url('images/connect_345.jpg') no-repeat top center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    .five{
+        background: url('images/touch_345.jpg') no-repeat top center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+    }
+
+    .six{
+        background: url('images/education_345.jpg') no-repeat top center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+    }
+
+    
+}
+
+
+@keyframes navLinkFade{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+.toggle .line2{
+    opacity: 0;
+}
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px,-6px);
+}
+
+
+

@@ -1,0 +1,256 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+
+}
+
+html, body{
+    background-color: #2997ff;
+    height: 100%;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+.pocket{
+    position: relative;
+}
+
+
+/*Top Text*/
+.branch{
+    text-align: center;
+    margin-top: 56px;
+    padding: 2em 0px;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.space{
+    color: #888888;
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 50;
+}
+
+.war{
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 50;
+    padding: 16px 0px;
+}
+
+.secbranch{
+    background: url('images/Proto2.jpg')no-repeat top center;
+    width: 100%;   
+    height: 810px;
+    overflow: hidden;
+    background-size: cover;
+    text-align: center;
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    padding: 2em 0px;
+}
+
+/*Table*/
+
+.layout{
+    padding: 2em 0px;
+    color: #ffffff;
+    background: #181818;
+    font-size: 18px;    
+}
+.layout2{
+    padding: 2em 0px;
+    color: #000000;
+    background: #d9d9d9;
+    font-size: 18px;    
+}
+
+table {
+    font-family: 'Roboto', sans-serif;
+    border-collapse: collapse;
+    border-spacing: 2px;
+    width: 50%;
+    margin-left: auto;    
+    margin-right: auto;
+}
+  
+td {
+    border: 0.5px solid #888888;
+    text-align: left;
+    padding: 8px;
+    width: 10%; ;
+}
+
+td:last-child{
+    border-right: 0px;
+}
+
+td:first-child{
+    border-left:0px;
+}
+
+th{
+    text-align: center;
+    padding: 10px 20px;
+}
+
+/*After Table Section*/
+
+.branch1{
+    padding: 2em 0px;
+    color: #000000;
+    background: #c6ff29ee;
+}
+
+.space1{
+    text-align: center;
+    color: #000000;
+    margin-top: 50px;
+}
+
+
+.space1 h1 span{
+    font-size: 36px;
+    margin: 48px 0px 16px;
+    padding: 0px 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.war1{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.res1{
+    margin: 0px 0px 0.5rem;
+    padding: 0px, 16px;
+    font-size: 20px ;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+}
+
+.res1 p{
+    margin: 0px 0px 8px;
+    padding: 0px, 16px;
+    font-size: 18px ;
+    display: block;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.join{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.join a{
+    color:#ffffff; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 10px 24px;
+    background: #000000;
+    border-radius: .1875rem;
+    letter-spacing: 1px;
+    font-size: 20px;
+    
+}
+
+/*Footer*/
+
+footer{
+    background: #0f0f0f;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a{
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+ 
+@media screen and (max-width:1650px){
+
+    .secbranch{
+        background: url('images/Proto2_1650.jpg')no-repeat top center;
+        width: 100%;   
+        height: 810px;
+        overflow: hidden;
+        background-size: cover;
+    }    
+}
+
+@media screen and (max-width:1380px){
+
+    .secbranch{
+        background: url('images/Proto2_1380.jpg')no-repeat top center;
+        width: 100%;   
+        height: 810px;
+        overflow: hidden;
+        background-size: cover;
+    }    
+}
+
+@media screen and (max-width:1110px){
+
+    .secbranch{
+        background: url('images/Proto2_1110.jpg')no-repeat top center;
+        width: 100%;   
+        height: 810px;
+        overflow: hidden;
+        background-size: cover;
+    }    
+}
+
+@media screen and (max-width:880px){
+
+    .secbranch{
+        background: url('images/Proto2_880.jpg')no-repeat top center;
+        width: 100%;   
+        height: 810px;
+        overflow: hidden;
+        background-size: cover;
+    }    
+}
+
+@media screen and (max-width:730px){
+
+    .secbranch{
+        background: url('images/Proto2_730.jpg')no-repeat top center;
+        width: 100%;   
+        height: 810px;
+        overflow: hidden;
+        background-size: cover;
+    }    
+}
+
+@media screen and (max-width:560px){
+
+    .secbranch{
+        background: url('images/Proto2_560.jpg')no-repeat top center;
+        width: 100%;   
+        height: 810px;
+        overflow: hidden;
+        background-size: cover;
+    }    
+}
+
+@media screen and (max-width:380px){
+    .layout{
+        font-size: 15px;
+    }
+
+    .layout2{
+        font-size: 15px;
+    }
+     
+}
